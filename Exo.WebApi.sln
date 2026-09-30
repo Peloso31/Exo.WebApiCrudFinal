@@ -1,9 +1,15 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.002.0
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo.WebApi", "Exo.WebApi.csproj", "{EEE15F89-F73D-462F-8984-4BE520D7EEC2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6F0B1A61-3C2D-4E8F-9A7B-1D2E3F4A5B6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo.WebApi", "src\Exo.WebApi\Exo.WebApi.csproj", "{EEE15F89-F73D-462F-8984-4BE520D7EEC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8C1D2E3F-4A5B-4C6D-8E7F-9A0B1C2D3E4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo.WebApi.Tests", "tests\Exo.WebApi.Tests\Exo.WebApi.Tests.csproj", "{3B7C9D1E-5F2A-4B6C-8D9E-0F1A2B3C4D5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{EEE15F89-F73D-462F-8984-4BE520D7EEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE15F89-F73D-462F-8984-4BE520D7EEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE15F89-F73D-462F-8984-4BE520D7EEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7C9D1E-5F2A-4B6C-8D9E-0F1A2B3C4D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7C9D1E-5F2A-4B6C-8D9E-0F1A2B3C4D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7C9D1E-5F2A-4B6C-8D9E-0F1A2B3C4D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7C9D1E-5F2A-4B6C-8D9E-0F1A2B3C4D5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEE15F89-F73D-462F-8984-4BE520D7EEC2} = {6F0B1A61-3C2D-4E8F-9A7B-1D2E3F4A5B6C}
+		{3B7C9D1E-5F2A-4B6C-8D9E-0F1A2B3C4D5E} = {8C1D2E3F-4A5B-4C6D-8E7F-9A0B1C2D3E4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CFCE37ED-6FDF-4480-A492-8D991109FBE6}
